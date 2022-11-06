@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Juice</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-utensils"></i>Brain Juice</a>
+    
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#popular">popular</a>
+        <a href="#menu">menu</a>
+        <a href="#order">order</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+    
+</header>
+
+<!-- header section ends  -->
+
+<!-- search-form  -->
+
+<section class="search-form-container">
+
+    <form action="">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</section>
+
+<!-- shopping-cart section  -->
+
+<section class="shopping-cart-container">
+
+    <div class="products-container">
+
+        <h3 class="title">your orders</h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/biryani.png" alt="">
+                <div class="content">
+                    <h3>Biryani</h3>
+                    <span> quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> price : </span>
+                    <span class="price"> ₹170.00 </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/chinesecuisine.png" alt="">
+                <div class="content">
+                    <h3>Chinese</h3>
+                    <span> quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> price : </span>
+                    <span class="price"> ₹110.00 </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/aloo.png" alt="">
+                <div class="content">
+                    <h3>Aloo Paratha</h3>
+                    <span> quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> price : </span>
+                    <span class="price"> ₹90.00 </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/cuisine.png" alt="">
+                <div class="content">
+                    <h3>Pav Bhaji</h3>
+                    <span> quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> price : </span>
+                    <span class="price"> ₹70.00 </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="image/grill.png" alt="">
+                <div class="content">
+                    <h3>Kabaab</h3>
+                    <span> quantity : </span>
+                    <input type="number" name="" value="1" id="">
+                    <br>
+                    <span> price : </span>
+                    <span class="price"> ₹150.00 </span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="cart-total">
+
+        <h3 class="title"> cart total </h3>
+
+        <div class="box">
+
+            <h3 class="subtotal"> subtotal : <span>₹590</span> </h3>
+            <h3 class="Discount 20%"> Discount : <span>(₹118)</span> </h3>
+
+            <h3 class="total"> total : <span>₹472</span> </h3>
+
+            <a href="#" class="btn">proceed to checkout</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- login-form  -->
+
+<div class="login-form-container">
+
+    <form action="">
+        <h3>login form</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="password" name="" placeholder="enter your password" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <!--<span>The Bestest</span>-->
+        <h3>As per your pocket</h3>
+        <p>Want to taste the most delicious of the city, never mind to ask us.</p>
+        <a href="#" class="btn">Contact us</a>
+    </div>
+
+    <div class="image">
+        <img src="image/home-img.png" alt="" class="home-img">
+        <img src="image/home-parallax-img.png" alt="" class="home-parallax-img">
+    </div>
+
+</section>
+
+<!-- home section ends  -->
+
+<!-- category section starts  -->
+
+<section class="category">
+
+    <a href="#" class="box">
+        <img src="image/cat-1.png" alt="">
+        <h3>combo</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-2.png" alt="">
+        <h3>pizza</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-3.png" alt="">
+        <h3>burger</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-4.png" alt="">
+        <h3>chicken</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-5.png" alt="">
+        <h3>dinner</h3>
+    </a>
+
+    <a href="#" class="box">
+        <img src="image/cat-6.png" alt="">
+        <h3>coffee</h3>
+    </a>
+
+</section>
+
+<!-- category section ends -->
+
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="image/about-img.png" alt="">
+    </div>
+
+    <div class="content">
+        <span>why choose us?</span>
+        <h3 class="title">Taste the most Delicious!</h3>
+        <p></p>
+        <a href="#" class="btn">Book Now</a>
+        <div class="icons-container">
+            <div class="icons">
+                <img src="image/serv-1.png" alt="">
+                <h3>Offers</h3>
+            </div>  
+            <div class="icons">
+                <img src="image/serv-2.png" alt="">
+                <h3>fresh food</h3>
+            </div>   
+            <div class="icons">
+                <img src="image/serv-3.png" alt="">
+                <h3>best quality</h3>
+            </div>  
+            <div class="icons">
+                <img src="image/serv-4.png" alt="">
+                <h3>24/7 support</h3>
+            </div>           
+        </div>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+    <div class="heading">
+        <span>popular food</span>
+        <h3>our special dishes</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Momos</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">₹110 <span>₹150</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">₹70.00 <span>₹95.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Cheese Corn Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">₹210.00 <span>₹270.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-4.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Mexican Burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">₹90.00 <span>₹130.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-5.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Macoroni Italian Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">₹140.00 <span>₹210.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-6.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Greek Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">₹170.00 <span>₹190.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-7.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Double Burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">₹145.00 <span>₹190.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="image">
+                <img src="image/food-8.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Farm House Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span> (50) </span>
+                </div>
+                <div class="price">₹210.00 <span>₹290.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+<!-- banner section starts  -->
+
+<section class="banner">
+
+    <div class="row-banner">
+        <div class="content">
+            <span>double cheese</span>
+            <h3>burger</h3>
+            <p>with cococola and fries</p>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+
+    <div class="grid-banner">
+        <div class="grid">
+            <img src="image/banner-1.png" alt="">
+            <div class="content">
+                <span>special offer</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="grid">
+            <img src="image/banner-2.png" alt="">
+            <div class="content center">
+                <span>special offer</span>
+                <h3>upto 25% extra</h3>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="grid">        
+            <img src="image/banner-3.png" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>100% cashback</h3>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- menu section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <span>The Best</span>
+        <h3>Restaurant near you</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> </h3>
+                <img src="image/blog-1.png" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> food / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>Ashoka Biryani</h3>
+                <p>6M83+RW4, New Dhamtari Rd, Opp. Colours Mall, Pachpedi Naka, Raipur, Chhattisgarh 492001</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> </h3>
+                <img src="image/biryaniClean.png" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> food / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>Biryani by Kilo</h3>
+                <p>Commercial Ground Floor, Ward No. 35, B-12 ec-1, Devendra Nagar, Beside City Centre Mall, Raipur, Chhattisgarh 492001</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> </h3>
+                <img src="image/aloo.png" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> food / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>Balbir Dhaba</h3>
+                <p>Great Eastern Rd, Chhokra Nala, Raipur, Chhattisgarh 492006</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> </h3>
+                <img src="image/chinesecuisine.png" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> food / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>Nottee9</h3>
+                <p>Goal Bazzar, Raipur, Chhattisgarh 492013</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> </h3>
+                <img src="image/grill.png" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> food / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>Shino's Grill</h3>
+                <p>Nayamunda, Frezarpur, Chhattisgarh 494001</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> </h3>
+                <img src="image/pasta.png" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> food / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>Iraa</h3>
+                <p>Swarnabhoomi, Raipur Chhattisgarh 492004</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> </h3>
+                <img src="image/home-img.png" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> food / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>MoMo Café</h3>
+                <p>NH-6, Labhandi Rd, opposite Indira Gandhi Agriculture University, Sai Nagar Zora, Krishak Nagar, Raipur, Chhattisgarh 492012</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <h3> <i class="fas fa-calendar"></i> </h3>
+                <img src="image/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="tags">
+                    <a href="#"> <i class="fas fa-tag"></i> food / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> burger / </a>
+                    <a href="#"> <i class="fas fa-tag"></i> pizza  </a>
+                </div>
+                <h3>Meow the Cat Cafe</h3>
+                <p>Mandi Gate- Ram Mandir Rd, Sector 5, Jagriti Nagar, Devendra Nagar, Raipur, Chhattisgarh 492004</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- <section class="menu" id="menu">
+
+    <div class="heading">
+        <span>The Best</span>
+        <h3>Restaurant Near You</h3>
+    </div>
+
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img src="image/menu-1.png" alt="">
+            <div class="content">
+                <h3>Biryani By Kilo</h3>
+                <div class="price">₹40.00</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-2.png" alt="">
+            <div class="content">
+                <h3>Balbir Dhaba</h3>
+                <div class="price">₹40.00</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-3.png" alt="">
+            <div class="content">
+                <h3>Shino's Grill</h3>
+                <div class="price">₹40.00</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-4.png" alt="">
+            <div class="content">
+                <h3>Naughty Nine</h3>
+                <div class="price">₹40.00</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-5.png" alt="">
+            <div class="content">
+                <h3>Ashoka Biryani</h3>
+                <div class="price">₹40.00</div>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/menu-6.png" alt="">
+            <div class="content">
+                <h3>Kamineys</h3>
+                <div class="price">₹40.00</div>
+            </div>
+        </a>
+
+    </div>
+
+</section> -->
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <div class="heading">
+        <span>Book Now</span>
+    </div>
+
+    <div class="icons-container">
+
+        <div class="icons">
+            <img src="image/icon-1.png" alt="">
+            <h3>24/7</h3>
+        </div>
+
+        <div class="icons">
+            <img src="image/icon-2.png" alt="">
+            <h3>+91-74711XXXXX</h3>
+        </div>
+
+        <div class="icons">
+            <img src="image/icon-3.png" alt="">
+            <h3>Raipur,India- 492013</h3>
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>your name</span>
+                <input type="text" placeholder="customer's name" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>your number</span>
+                <input type="number" placeholder="customer's number" name="" id="">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>your Query</span>
+                <input type="text" placeholder="Query" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span>Any Suggestions</span>
+                <input type="number" placeholder="suggestions" name="" id="">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <span>your Email</span>
+                <input type="text" placeholder="email" name="" id="">
+            </div>
+            <div class="inputBox">
+                <span></span>
+                <input type="datetime-local">
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="inputBox">
+                <textarea placeholder="your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="inputBox">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118983.61087398425!2d81.54886137106794!3d21.262050993674293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dda23be28229%3A0x163ee1204ff9e240!2sRaipur%2C%20Chhattisgarh!5e0!3m2!1sen!2sin!4v1667717749433!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+
+        <input type="submit" value="proceed to book" class="btn">
+
+    </form>
+
+</section>
+
+<!-- order section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="newsletter">
+        <h3>newsletter</h3>
+        <form action="">
+            <input type="email" name="" placeholder="enter your email" id="">
+            <input type="submit" value="subscribe">
+        </form>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our menu</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i> pizza</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> burger</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> chicken</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> pasta</a>
+            <a href="#"><i class="fas fa-arrow-right"></i> and more...</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="#popular"> <i class="fas fa-arrow-right"></i> popular</a>
+            <a href="#menu"> <i class="fas fa-arrow-right"></i> menu</a>
+            <a href="#order"> <i class="fas fa-arrow-right"></i> Book</a>
+            <a href="#blogs"> <i class="fas fa-arrow-right"></i> blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my Booking</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> terms of use</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privary policy</a>
+        </div>
+
+        <!-- <div class="box">
+            <h3>opening hours</h3>
+            <p>monday : 7:00am to 10:00pm</p>
+            <p>tuesday : 7:00am to 10:00pm</p>
+            <p>wednesday : 7:00am to 10:00pm</p>
+            <p>friday : 7:00am to 10:00pm</p>
+            <p>saturday and sunday closed</p>
+        </div> -->
+
+    </div>
+
+    <div class="bottom">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit">Made with ❤</div>
+        
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
